@@ -32,7 +32,7 @@ async def on_ready():
 
 async def load_cogs():
     cogs = ["cogs.logging", "cogs.vc",
-            "cogs.moderation"]  # add other cogs here
+            "cogs.moderation"]  
     for cog in cogs:
         try:
             await bot.load_extension(cog)
